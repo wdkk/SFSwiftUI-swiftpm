@@ -7,9 +7,6 @@ struct ContentView: View {
         PGBookCanvas(
         design:{
             PGScreen.clearColor = .aliceBlue
-            
-            PGCircle()
-            .color( .red )
         },
         update: {
         
