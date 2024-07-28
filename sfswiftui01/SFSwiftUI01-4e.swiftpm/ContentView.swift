@@ -16,11 +16,11 @@ struct ContentView: View {
             } 
             label: {
                 Label( "アイコンを含むボタン", systemImage: "plus" )
-                .foregroundColor( .white )
+                .foregroundStyle( .white )
                 .padding( .vertical, 10 )
                 .padding( .horizontal, 20 )
                 .background( .blue )
-                .cornerRadius( 8 )
+                .clipShape( RoundedRectangle(cornerRadius: 8) )
             }
             
             Link( 

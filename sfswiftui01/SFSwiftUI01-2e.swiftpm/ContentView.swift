@@ -5,18 +5,18 @@ struct ContentView: View {
         VStack {
             Text( "こんにちわ" )
             .font( .system(size: 24 ) )
-            .foregroundColor( .mint )
+            .foregroundStyle( .mint )
             .frame( minWidth: 100, minHeight: 100 )
             .padding()
             .background( .indigo )
-            .cornerRadius( 8 )
+            .clipShape( RoundedRectangle(cornerRadius: 8 ) )
             .padding( .bottom, 50 )
             
             Text( "こんばんわ" )
             .frame( maxWidth:.infinity, minHeight:60 )
             .padding()
             .background( .purple )
-            .cornerRadius( 30 )
+            .clipShape( RoundedRectangle(cornerRadius: 30 ) )
         }
     }
 }

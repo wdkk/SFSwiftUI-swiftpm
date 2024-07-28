@@ -10,7 +10,7 @@ struct ContentView: View {
                 Spacer()
                 
                 Image( systemName:"gearshape" )
-                .foregroundColor( .blue )
+                .foregroundStyle( .blue )
                 .font( .title2 )
             }
             
