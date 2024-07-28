@@ -37,7 +37,7 @@ struct ContentView: View {
                     label: {
                         Image( systemName:"plus" )
                         .font( .title2 )
-                        .foregroundColor( .accentColor )
+                        .foregroundStyle( Color.accentColor )
                     }
                 }
             }

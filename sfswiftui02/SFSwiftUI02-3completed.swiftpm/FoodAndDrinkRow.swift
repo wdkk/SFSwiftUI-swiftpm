@@ -18,7 +18,7 @@ struct FoodAndDrinkRow : View {
             
             Text( message )
             .font( .system( size:14.0 ) )
-            .foregroundColor( .secondary )
+            .foregroundStyle( .secondary )
         }
         .padding( .vertical, 10.0 )
     }

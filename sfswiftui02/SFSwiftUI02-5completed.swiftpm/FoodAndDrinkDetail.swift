@@ -13,7 +13,7 @@ struct FoodAndDrinkDetail : View {
                 VStack {
                     Text( data.title )
                     .font( .system(size: 24.0) )
-                    .foregroundColor( .white )
+                    .foregroundStyle( .white )
                     .padding()
                 }
             }

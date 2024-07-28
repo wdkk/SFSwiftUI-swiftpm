@@ -32,7 +32,7 @@ struct ContentView: View {
                     label: {
                         Image( systemName:"plus" )
                         .font( .title2 )
-                        .foregroundColor( .accentColor )
+                        .foregroundStyle( Color.accentColor )
                     }
                 }
             }
@@ -44,8 +44,8 @@ struct ContentView: View {
             //PhotoData.clear( path:user_json_path )
             photos = PhotoData.load( path:user_json_path )
         }
-        .onChange( of:photos ) { photos in
-            PhotoData.save( path:user_json_path, data:photos )
+        .onChange( of:photos ) { oldData, newData in
+            PhotoData.save( path:user_json_path, data:newData )
         }
     }
 }
