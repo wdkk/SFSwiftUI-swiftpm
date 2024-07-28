@@ -8,15 +8,15 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "SFSwiftUI03-1",
+    name: "SFSwiftUI02-4",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "SFSwiftUI03-1",
+            name: "SFSwiftUI02-4",
             targets: ["AppModule"],
-            bundleIdentifier: "jp.co.wdkk.SFSwiftUI03-1",
+            bundleIdentifier: "jp.co.wdkk.SFSwiftUI02-4e",
             teamIdentifier: "N6DRT9P33S",
             displayVersion: "1.0",
             bundleVersion: "1",

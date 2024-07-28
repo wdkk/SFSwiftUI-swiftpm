@@ -16,7 +16,7 @@ let package = Package(
         .iOSApplication(
             name: "SFSwiftUI03-1",
             targets: ["AppModule"],
-            bundleIdentifier: "jp.co.wdkk.SFSwiftUI03-1",
+            bundleIdentifier: "jp.co.wdkk.SFSwiftUI03-1e",
             teamIdentifier: "N6DRT9P33S",
             displayVersion: "1.0",
             bundleVersion: "1",
